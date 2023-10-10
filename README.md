@@ -14,11 +14,16 @@ A CLI to update MP3 files' metadata using Spotify API.
 
 ## Installation
 
-Paste this command and run in your command line.
+Because this package is not released on any site due to privacy purposes, please follow the following methods.
 
-```bash
-npm install spotify-metadata-updater-cli
+1. Clone this repository
+2. Link the repository.
+
 ```
+npm link
+```
+
+3. Follow the [Usage](#usage)
 
 ## Usage
 

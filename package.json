@@ -4,7 +4,6 @@
 	"description": "A CLI to update MP3 files' metadata using Spotify API.",
 	"main": "src/cli.js",
 	"scripts": {
-		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
 		"link": "sudo npm link"
 	},
 	"keywords": [
