@@ -1,0 +1,29 @@
+{
+	"name": "spotify-metadata-updater-cli",
+	"version": "1.0.0",
+	"description": "A CLI to update metadata of songs",
+	"main": "src/cli.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"link": "sudo npm link"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"metadata-updater": "bin/metadata-updater.js"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@opentf/cli-pbar": "^0.1.8",
+		"@spotify/web-api-ts-sdk": "^1.1.2",
+		"axios": "^1.5.1",
+		"chalk": "^5.3.0",
+		"commander": "^11.0.0",
+		"fs": "^0.0.1-security",
+		"node-id3": "^0.2.6",
+		"path": "^0.12.7"
+	}
+}
