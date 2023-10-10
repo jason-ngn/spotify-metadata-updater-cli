@@ -1,6 +1,6 @@
 {
 	"name": "spotify-metadata-updater-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A CLI to update MP3 files' metadata using Spotify API.",
 	"main": "src/cli.js",
 	"scripts": {
