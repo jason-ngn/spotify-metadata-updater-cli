@@ -32,5 +32,9 @@
 		"fs": "^0.0.1-security",
 		"node-id3": "^0.2.6",
 		"path": "^0.12.7"
-	}
+	},
+	"repository": {
+		"url": "https://github.com/jason-ngn/spotify-metadata-updater-cli"
+	},
+	"homepage": "https://github.com/jason-ngn/spotify-metadata-updater-cli"
 }
