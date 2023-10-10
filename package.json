@@ -1,15 +1,22 @@
 {
 	"name": "spotify-metadata-updater-cli",
 	"version": "1.0.0",
-	"description": "A CLI to update metadata of songs",
+	"description": "A CLI to update MP3 files' metadata using Spotify API.",
 	"main": "src/cli.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
 		"link": "sudo npm link"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"spotify",
+		"metadata",
+		"updater",
+		"metadata updater",
+		"spotify metadata updater",
+		"cli"
+	],
+	"author": "jason-ngn",
+	"license": "MIT",
 	"bin": {
 		"metadata-updater": "bin/metadata-updater.js"
 	},

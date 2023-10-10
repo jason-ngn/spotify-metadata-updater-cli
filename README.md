@@ -1,11 +1,65 @@
-<h1 align="center">Hi 👋, I'm Jason Nguyen</h1>
-<h3 align="center">A discord.js developer from Vietnam</h3>
+# spotify-metadata-updater-cli
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jason-ngn&label=Profile%20views&color=0e75b6&style=flat" alt="jason-ngn" /> </p>
+A CLI to update MP3 files' metadata using Spotify API.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+## Table of contents
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Metadata Updater](#metadata-updater)
+  - [Lyrics Updater](#lyrics-updater)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Paste this command and run in your command line.
+
+```bash
+npm install spotify-metadata-updater-cli
+```
+
+## Usage
+
+### Metadata Updater
+
+Specify a folder that contains all of the MP3 files to the CLI.
+
+```bash
+metadata-updater metadata <folder>
+```
+
+You can also update just one MP3 file.
+
+```bash
+metadata-updater metadata <path/to/file.mp3>
+```
+
+### Lyrics Updater
+
+Specify a folder that contains all of the MP3 files to the CLI.
+
+```bash
+metadata-updater lyrics <folder>
+```
+
+You can also get the lyrics of just one MP3 file.
+
+```bash
+metadata-updater lyrics <path/to/file.mp3>
+```
+
+## Contributing
+
+Pull requests are welcome. For issues, please open an issue first to discuss. For changes, please also open an issue to discuss about changes you would like to make.
+
+Please also update tests as appropriate.
+
+## Credits
+
+[jason-ngn](https://github.com/jason-ngn)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
