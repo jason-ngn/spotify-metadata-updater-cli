@@ -79,7 +79,7 @@ module.exports = (program, args) => {
 				);
 
 				const filteredResults = response.data.filter((result) => {
-					if (result.trackName !== song.tags.title) return false;
+					if (result.name !== song.tags.title) return false;
 					if (result.artistName !== song.tags.artist) return false;
 					if (result.albumName !== song.tags.album) return false;
 
